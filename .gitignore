@@ -1,0 +1,13 @@
+# Environments
+.env
+.env.local
+
+# Certificates and Keys
+*.crt
+*.key
+roubaoug-caldera*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
