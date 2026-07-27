@@ -1,16 +1,16 @@
 # MITRE Caldera API Automation
 
-This repository contains a Python automation script (`caldera-api2.py`) designed to interact with the MITRE Caldera API[cite: 1]. It allows users to dynamically select active operations, find alive agents, and execute temporary commands on the fly[cite: 1].
+This repository contains a Python automation script (`caldera-api2.py`) designed to interact with the MITRE Caldera API. It allows users to dynamically select active operations, find alive agents, and execute temporary commands on the fly.
 
 ## Features
-* **List Operations:** Automatically fetches and lists available operations[cite: 1].
-* **Identify Alive Agents:** Filters agents to find those that have checked in recently (within 10 minutes)[cite: 1].
-* **Dynamic Command Execution:** Creates a temporary ability and dispatches it to a selected agent[cite: 1].
-* **Live Monitoring:** Polls the operation log to return the success/failure status of your dispatched command[cite: 1].
+* **List Operations:** Automatically fetches and lists available operations.
+* **Identify Alive Agents:** Filters agents to find those that have checked in recently (within 10 minutes).
+* **Dynamic Command Execution:** Creates a temporary ability and dispatches it to a selected agent.
+* **Live Monitoring:** Polls the operation log to return the success/failure status of your dispatched command.
 
 ## Prerequisites
 * Python 3.x
-* `requests` and `urllib3` libraries[cite: 1]
+* `requests` and `urllib3` libraries
 
 You can install the required libraries using:
 \`\`\`bash
